@@ -1,0 +1,1 @@
+web: gunicorn bixby_api.wsgi
