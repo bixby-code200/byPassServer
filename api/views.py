@@ -11,7 +11,6 @@ def send_get(request):
 
     print(BASE_URL+query)
     res = requests.get(BASE_URL+query)
-    print(res)
     if (res.status_code == 200):
         result = res.json()
         print(result)
