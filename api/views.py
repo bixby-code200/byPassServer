@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 import requests
 from django.http.response import JsonResponse
 BASE_URL = 'https://api.odsay.com/v1/api/searchPubTransPath'
-API_KEY = '/Z+FNNIFCh0VTSfz+wgotg'
+API_KEY = '%2FZ%2BFNNIFCh0VTSfz%2Bwgotg'
 
 
 def send_get(request):
