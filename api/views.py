@@ -13,7 +13,6 @@ def send_get(request):
     res = requests.get(BASE_URL+query)
     if (res.status_code == 200):
         result = res.json()
-        print(result)
         return JsonResponse(result)
     else:
         return JsonResponse({'message': 'severError', 'code': res.status_code})
